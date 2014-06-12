@@ -5,8 +5,8 @@
 		<directoryFormat>packageOnly</directoryFormat>
 		<loadPriority>5</loadPriority>
 		<version>1.0.0</version>
-		<provider>fh group</provider>
-		<providerURL>http://www.fh-group.com</providerURL>
+		<provider>Medkore</provider>
+		<providerURL>http://www.medkore.com</providerURL>
 		<category>Utility</category>
 
 		<!--
@@ -35,9 +35,9 @@
 				<hint></hint>
 				<type>TextBox</type>
 				<required>true</required>
-				<validation></validation>
-				<regex></regex>
-				<message></message>
+				<validation>regex</validation>
+				<regex>/(?i)ua-\d+-\w\d+/</regex>
+				<message>Invalid ID</message>
 				<defaultvalue></defaultvalue>
 			</setting>
 			<setting>
@@ -46,9 +46,9 @@
 				<hint></hint>
 				<type>TextBox</type>
 				<required>false</required>
-				<validation></validation>
-				<regex></regex>
-				<message></message>
+				<validation>regex</validation>
+				<regex>/(?i)ua-\d+-\w\d+/</regex>
+				<message>Invalid ID</message>
 				<defaultvalue></defaultvalue>
 			</setting>
 		</settings>
