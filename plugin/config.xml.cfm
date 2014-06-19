@@ -51,6 +51,19 @@
 				<message>Invalid ID</message>
 				<defaultvalue></defaultvalue>
 			</setting>
+			<setting>
+				<name>GoogleAnalyticsAJDisplayFeatures</name>
+				<label>Google Analytics (analytics.js) - Display Features</label>
+				<hint></hint>
+				<type>radioGroup</type>
+				<required>false</required>
+				<validation>none</validation>
+				<regex></regex>
+				<message></message>
+				<defaultvalue>0</defaultvalue>
+				<optionlist>1^0</optionlist>
+				<optionlabellist>Yes^No</optionlabellist>
+			</setting>
 		</settings>
 		<eventHandlers>
 			<eventHandler

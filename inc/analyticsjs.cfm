@@ -6,6 +6,7 @@
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
     ga('create', '#google_analyticsjs_tracking#', 'auto');
+    <cfif google_analyticsjs_displayfeatures EQ 1>ga('require', 'displayfeatures');</cfif>
     ga('send', 'pageview');
   </script>
 </cfoutput>
