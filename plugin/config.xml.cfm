@@ -4,7 +4,7 @@
 		<package>MuraAnalytics</package>
 		<directoryFormat>packageOnly</directoryFormat>
 		<loadPriority>5</loadPriority>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 		<provider>Medkore</provider>
 		<providerURL>http://www.medkore.com</providerURL>
 		<category>Utility</category>
