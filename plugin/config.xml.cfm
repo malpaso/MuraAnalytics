@@ -34,7 +34,7 @@
 				<label>Google Analytics Tracking ID (ga.js)</label>
 				<hint></hint>
 				<type>TextBox</type>
-				<required>true</required>
+				<required>false</required>
 				<validation>regex</validation>
 				<regex>/(?i)ua-\d+-\w\d+/</regex>
 				<message>Invalid ID</message>
